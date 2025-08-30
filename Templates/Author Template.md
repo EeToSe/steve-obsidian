@@ -1,7 +1,6 @@
 ---
 categories: "[[People]]"
 tags:
-  - people
   - authors
 ---
 ## Books

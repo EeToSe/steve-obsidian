@@ -2,7 +2,6 @@
 categories:
   - "[[People]]"
 tags:
-  - people
   - authors
 org:
   - "[[Obsidian]]"

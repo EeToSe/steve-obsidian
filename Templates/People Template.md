@@ -2,9 +2,9 @@
 categories:
   - "[[People]]"
 tags:
-  - people
-birthday: 
+birthday:
 org: []
+url:
 created: {{date}}
 ---
 ## Meetings

@@ -1,6 +1,6 @@
 filters:
   and:
-    - tags.contains("0🌲")
+    - categories.contains(link("0🌲"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -14,5 +14,5 @@ views:
       - file.name
       - created
     sort:
-      - column: note.created
+      - property: created
         direction: DESC

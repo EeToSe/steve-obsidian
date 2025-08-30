@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Posts]]"
-tags:
-  - posts
+created:
+  "{ date }":
+url:
 author:
   - "[[Me]]"
-url: 
-created: {{date}}
-published: 
+published:
 topics: []
 status:
+tags:
+  - posts
 ---
