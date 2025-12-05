@@ -1,0 +1,5 @@
+---
+topics:
+  - "[[Wellness]]"
+---
+![[Wellness.base]]

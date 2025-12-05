@@ -4,7 +4,7 @@ categories:
 tags:
 birthday:
 org: []
-url:
+url: https://www.darioamodei.com/essay/machines-of-loving-grace
 created: 2025-12-04
 ---
 ## Clippings

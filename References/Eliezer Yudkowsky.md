@@ -4,8 +4,8 @@ categories:
 tags:
 birthday:
 org: []
-url:
-created: 2025-12-04
+url: https://en.wikipedia.org/wiki/Eliezer_Yudkowsky
+created: 2025-12-05
 ---
 ## Clippings
 
