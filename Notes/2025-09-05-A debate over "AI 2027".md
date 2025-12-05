@@ -1,0 +1,9 @@
+---
+tags:
+  - daily
+created: 2025-09-05
+---
+llm gaslighting -> iclr -> 相关论文 -> 瑞典小哥 -> post on lesswrong created by [Eliezer Yudkowsky](https://x.com/esyudkowsky) (you may see other [x recommendations](https://x.com/i/grok?conversation=1963812575621284088))-> find ai alignmentforumn -> Daniel Kokotajlo(maybe one 活跃 user?) -> his post # [What 2026 looks like](https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like) -> his x post -> find the ai_futures -> his new article -> ai 2027 -> this article coauthor  [Eli Lifland](https://x.com/eli_lifland) -> his post [what you can do about AI 2027](https://x.com/gerardsans/status/1939032031914340807) -> find the comments that "AI 2027 is a work of fiction and speculation." and suggest the only thing the authors should do is learn how the technology actually works. -> brings the a good starting point paper [Understanding AI in 2025: It's Still All About the Next Token]() -> then i come across this [meta bloglist](https://x.com/deyneka_e/status/1957172896146845915) -> found the crossing recommendations from x -> it seems like [distill](https://distill.pub/) and [Anthropic’s Interpretability Research](https://transformer-circuits.pub/) -> where distill is founded by [Christopher Olah](https://colah.github.io/about.html) 
+-> and he joined Anthropic -> and found [Transformer Circuits Thread](https://transformer-circuits.pub/) about Interpretability Research and its landmark papers, totally lost and ask [their relationships](https://grok.com/c/e096c8a4-372a-4480-af30-def6aea8e89c) to help initial understanding
+
+to start with lesswrong, see [New User's Guide to LessWrong](https://www.lesswrong.com/posts/LbbrnRvc9QwjJeics/new-user-s-guide-to-lesswrong)

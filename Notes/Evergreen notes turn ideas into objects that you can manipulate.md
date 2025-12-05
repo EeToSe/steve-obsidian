@@ -1,21 +1,20 @@
 ---
 categories:
-  - "[[Posts]]"
-  - "[[Clippings]]"
+  - "[[Essay]]"
 created: 2023-09-14
 url: https://stephango.com/evergreen-notes
 author:
   - "[[Steph Ango]]"
 published: 2022-09-16
 topics:
-  - "[[Evergreen]]"
+  - "[[PKM]]"
+  - "[[Obsidian]]"
 tags:
   - 0🌲
-  - clippings
 status:
   - "[[Published]]"
 ---
-Using [[evergreen]] notes in Obsidian has been the most impactful change to how I think.
+Using [[0🌲]] notes in Obsidian has been the most impactful change to how I think.
 
 Evergreen notes allow you to think about complex ideas by building them up from smaller composable ideas.
 
