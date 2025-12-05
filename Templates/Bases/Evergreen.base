@@ -1,6 +1,5 @@
 filters:
   and:
-    - categories.contains(link("0🌲"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -10,9 +9,13 @@ properties:
 views:
   - type: table
     name: Evergreen
+    filters:
+      and:
+        - categories.contains(link("0🌲"))
     order:
       - file.name
-      - created
     sort:
       - property: created
         direction: DESC
+    columnSize:
+      file.name: 343

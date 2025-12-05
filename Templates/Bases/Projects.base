@@ -1,7 +1,6 @@
 filters:
   and:
     - '!file.name.contains("Template")'
-    - note.categories.contains(link("Projects"))
 properties:
   note.status:
     displayName: Status
@@ -16,17 +15,28 @@ properties:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - categories.contains(link("Projects"))
     order:
       - file.name
-      - type
-      - year
-      - status
       - url
     sort:
-      - column: note.status
+      - property: status
         direction: ASC
-      - column: note.year
+      - property: year
         direction: DESC
     columnSize:
-      file.name: 209
-      note.type: 199
+      file.name: 292
+  - type: list
+    name: Obsidian
+    filters:
+      and:
+        - topics.contains(link("Obsidian"))
+    order:
+      - file.name
+  - type: table
+    name: Monk
+    filters:
+      and:
+        - topics.contains(link("Monk Mode Research"))

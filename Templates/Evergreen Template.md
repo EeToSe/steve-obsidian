@@ -1,13 +1,12 @@
 ---
 categories:
   - "[[0🌲]]"
-created: {{date}}
+topics:
 url:
 author:
+created: {{date}}
 published:
-topics:
 status:
 tags:
   - 0🌲
-
 ---

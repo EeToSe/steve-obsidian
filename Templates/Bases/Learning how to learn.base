@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - topics.contains(link("Learning How to Learn"))
+    order:
+      - file.name
+      - author
+    columnSize:
+      file.name: 490
+  - type: table
+    name: Thinking
+    filters:
+      and:
+        - topics.contains(link("Thinking Framework"))

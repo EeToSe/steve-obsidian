@@ -1,0 +1,55 @@
+views:
+  - type: table
+    name: Psychology
+    filters:
+      and:
+        - topics.contains(link("Psychology health"))
+  - type: table
+    name: moc
+    filters:
+      or:
+        - topics.contains(link("Wellness"))
+        - file.tags.contains("health")
+  - type: table
+    name: Physical
+    filters:
+      and:
+        - topics.contains(link("Physical health"))
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Spiritual
+    filters:
+      and:
+        - topics.contains(link("Spiritual health"))
+  - type: table
+    name: health check
+    filters:
+      and:
+        - topics.contains(link("体检"))
+  - type: table
+    name: 七维改善闭环
+    filters:
+      and:
+        - topics.contains(link("七维改善闭环"))
+  - type: table
+    name: 健身
+    filters:
+      and:
+        - topics.contains(link("健身"))
+  - type: table
+    name: 久坐
+    filters:
+      and:
+        - topics.contains(link("对抗久坐"))
+  - type: table
+    name: Antifragile
+    filters:
+      and:
+        - topics.contains(link("Antifragility"))
+  - type: table
+    name: Discipline
+    filters:
+      and:
+        - topics.contains(link("Discipline"))

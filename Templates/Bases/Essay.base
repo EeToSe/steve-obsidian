@@ -1,0 +1,25 @@
+filters:
+  and:
+    - '!file.name.contains("Template")'
+views:
+  - type: table
+    name: Essays
+    filters:
+      and:
+        - categories.contains(link("Essay"))
+    order:
+      - file.name
+      - topics
+      - created
+    sort:
+      - property: topics
+        direction: DESC
+    columnSize:
+      file.name: 380
+      note.topics: 155
+  - type: table
+    name: View
+    filters:
+      or:
+        - categories.contains(link("Articles"))
+        - type.contains(link("Articles"))

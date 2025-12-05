@@ -1,7 +1,5 @@
 ---
 tags:
   - daily
+created: {{date}}
 ---
-## Notes
-
-![[Daily.base]]

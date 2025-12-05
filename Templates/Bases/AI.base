@@ -1,0 +1,43 @@
+views:
+  - type: table
+    name: Essays
+    filters:
+      and:
+        - topics.contains(link("AI"))
+        - categories.contains(link("Essay"))
+    order:
+      - file.name
+      - author
+    columnSize:
+      file.name: 512
+  - type: table
+    name: LLM
+    filters:
+      and:
+        - topics.contains(link("LLM"))
+  - type: table
+    name: AI Agent
+    filters:
+      and:
+        - topics.contains(link("AI Agent"))
+  - type: table
+    name: MOC
+    filters:
+      and:
+        - topics.contains(link("AI"))
+        - file.tags.contains("moc")
+  - type: table
+    name: Cybersecurity
+    filters:
+      and:
+        - topics.contains(link("Cybersecurity"))
+  - type: table
+    name: to-learn
+    filters:
+      and:
+        - topics.contains(link("AI to-learn"))
+  - type: table
+    name: AI surf
+    filters:
+      or:
+        - topics.contains(link("Surf the AI wave"))

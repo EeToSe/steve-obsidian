@@ -1,28 +1,36 @@
 filters:
   and:
-    - note.categories.contains(link("Podcast episodes"))
+    - categories.contains(link("Podcast episodes"))
     - '!file.name.contains("Template")'
-display:
-  file.name: Podcast
-  note.show: Show
-  note.guests: Guests
-  note.episode: Episode
-  note.rating: Rating
-  note.published: Published
-  note.guest: Guest
+properties:
+  file.name:
+    displayName: Podcast
+  note.show:
+    displayName: Show
+  note.guests:
+    displayName: Guests
+  note.episode:
+    displayName: Episode
+  note.rating:
+    displayName: Rating
+  note.published:
+    displayName: Published
+  note.guest:
+    displayName: Guest
 views:
   - type: table
     name: All episodes
     order:
       - file.name
-      - show
       - guests
-      - episode
-      - rating
+      - topics
       - published
     sort:
-      - column: note.published
+      - property: published
         direction: DESC
+    columnSize:
+      file.name: 369
+      note.guests: 184
   - type: table
     name: Show
     filters:
@@ -30,11 +38,11 @@ views:
         - list(show).contains(this)
     order:
       - file.name
-      - show
-      - episode
-      - rating
+      - guests
       - published
-      - guest
+    columnSize:
+      file.name: 417
+      note.guests: 175
   - type: table
     name: Guest
     filters:
@@ -43,7 +51,9 @@ views:
     order:
       - file.name
       - show
-      - guests
-      - episode
-      - rating
       - published
+    sort:
+      - property: guests
+        direction: ASC
+    columnSize:
+      file.name: 387

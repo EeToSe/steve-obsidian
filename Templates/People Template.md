@@ -7,6 +7,6 @@ org: []
 url:
 created: {{date}}
 ---
-## Meetings
+## Clippings
 
-![[Meetings.base#Person]]
+![[Clippings.base#Author]]

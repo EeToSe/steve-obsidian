@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - topics.contains(link("Thinking Framework"))
+  - type: table
+    name: First Principles
+    filters:
+      and:
+        - topics.contains(link("First principles"))
+    order:
+      - file.name
+      - author
+    columnSize:
+      file.name: 572

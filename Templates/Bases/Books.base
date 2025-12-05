@@ -17,14 +17,14 @@ views:
     order:
       - file.name
       - author
-      - length
       - year
-      - rating
       - topics
       - last
     sort:
       - property: file.name
         direction: ASC
+    columnSize:
+      file.name: 185
   - type: table
     name: Top rated
     order:
@@ -46,6 +46,9 @@ views:
     sort:
       - property: genre
         direction: ASC
+    columnSize:
+      file.name: 207
+      note.year: 154
   - type: table
     name: Genre
     filters:
