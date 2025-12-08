@@ -2,7 +2,7 @@
 categories:
   - "[[People]]"
 tags:
-  - people/researcher
+  - people/learn
 birthday:
 org: []
 url: https://karpathy.ai/

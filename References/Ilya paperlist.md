@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Clippings]]"
 topics:
   - "[[AI to-learn]]"
 author:

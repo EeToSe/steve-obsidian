@@ -2,6 +2,7 @@
 categories:
   - "[[People]]"
 tags:
+  - people/learn
 birthday:
 org: []
 url: https://en.wikipedia.org/wiki/Eliezer_Yudkowsky

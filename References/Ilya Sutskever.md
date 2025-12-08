@@ -2,6 +2,7 @@
 categories:
   - "[[People]]"
 tags:
+  - people/learn
 birthday:
 org: []
 url:

@@ -2,4 +2,4 @@
 topics:
   - "[[Wellness]]"
 ---
-![[Wellness.base]]
+![[Wellness.base#Discipline]]

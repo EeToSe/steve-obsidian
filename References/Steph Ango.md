@@ -4,7 +4,7 @@ categories:
 tags:
 birthday:
 org: []
-url:
+url: https://stephango.com/
 created: 2025-12-04
 ---
 ## Clippings
