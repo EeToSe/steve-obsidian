@@ -1,7 +1,7 @@
 filters:
   and:
-    - file.tags.contains("daily")
     - '!file.name.contains("Template")'
+    - '!file.name.contains("base")'
 properties:
   file.name:
     displayName: Entry
@@ -14,6 +14,9 @@ properties:
 views:
   - type: table
     name: Daily notes
+    filters:
+      and:
+        - file.tags.contains("daily")
     order:
       - file.name
       - created
@@ -54,4 +57,13 @@ views:
       - created
     sort:
       - property: created
+        direction: ASC
+  - type: table
+    name: Today
+    filters:
+      and:
+        - file.mtime >= today()
+        - file.ext != "png"
+    sort:
+      - property: file.mtime
         direction: ASC
